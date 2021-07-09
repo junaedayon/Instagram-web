@@ -3,3 +3,14 @@
 
     flex-direction: column;
 }
+.border {
+    max-width: 50%;
+    justify-content: center;
+}
+.headline {
+    text-align: center;
+    letter-spacing: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ background-color: aqua;
+ 
+}

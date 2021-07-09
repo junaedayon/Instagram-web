@@ -6,4 +6,18 @@
      margin-right: auto;
      margin-top: 10px;
      margin-bottom: 10px;
+     background-color: white;
+     border-top: 1px solid lightgray;
+}
+.progress {
+    width: 100%;
+}
+
+.caption{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.upload {
+    margin-bottom: 5px;
 }

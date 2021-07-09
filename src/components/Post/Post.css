@@ -1,9 +1,13 @@
-.post {
+.imagePost {
   width: 500px;
   object-fit: contain;
   border: 1px solid lightgray;
   background-color: white;
   margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+align-items: center;
+  
 }
 .post_img {
     width: 100%;
@@ -25,4 +29,21 @@
 }
 .post_avatar{
   margin-right: 10px;
+}
+.comment_box{
+  display: flex;
+  border-top: 1px solid lightgray;
+}
+.post_input {
+  flex: 1;
+  border: none;
+  outline: 1px solid lightgray;
+  padding: 10px;
+}
+.post_button {
+
+  flex: 0;
+  color: #6082a3 ;
+  background-color: transparent;
+  /* border-top: 1px solid lightgray; */
 }
